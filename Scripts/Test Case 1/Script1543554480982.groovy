@@ -13,3 +13,29 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://opensource-demo.orangehrmlive.com/')
+
+WebUI.setText(findTestObject('Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'), 'Admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Username_txtPassword'), 'hUKwJTbofgPU9eVlw/CnDQ==')
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/input_Password_Submit'))
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/img'))
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Recruitment'))
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Dashboard'))
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Directory'))
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Admin'))
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_PIM'))
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Leave'))
+
+WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Performance'))
+
