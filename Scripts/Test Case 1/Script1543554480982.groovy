@@ -39,3 +39,5 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Leave'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/b_Performance'))
 
+WebUI.closeBrowser()
+

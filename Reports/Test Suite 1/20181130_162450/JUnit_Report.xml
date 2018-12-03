@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="33" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="1" failures="0" errors="0" time="33" timestamp="2018-11-30 16:24:52" hostname="homea - DESKTOP-M7FJHIG" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\homea\\git\\KatalonGitLearn\\Reports\\Test Suite 1\\20181130_162450"/>
+         <property name="logFiles" value="C:\\Users\\homea\\git\\KatalonGitLearn\\Reports\\Test Suite 1\\20181130_162450\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="homea - DESKTOP-M7FJHIG"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.6.1"/>
+         <property name="browser" value="Firefox 63.0"/>
+         <property name="hostAddress" value="192.168.43.188"/>
+         <property name="sessionId" value="3372bddb-be2e-47ef-b77e-2a7b09c7731d"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 1" classname="Test Cases/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2018-11-30 16:24:52 - [TEST_CASE][PASSED] - Test Cases/Test Case 1: Test Cases/Test Case 1
+
+2018-11-30 16:24:53 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-30 16:25:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-30 16:25:00 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-11-30 16:25:07 - [MESSAGE][PASSED] - Navigate to 'https://opensource-demo.orangehrmlive.com/' successfully
+
+2018-11-30 16:25:07 - [TEST_STEP][PASSED] - setText: Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2018-11-30 16:25:07 - [MESSAGE][PASSED] - Text 'Admin' is set on object 'Object Repository/Page_OrangeHRM/input_LOGIN Panel_txtUsername'
+
+2018-11-30 16:25:07 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2018-11-30 16:25:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_OrangeHRM/input_Username_txtPassword'
+
+2018-11-30 16:25:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2018-11-30 16:25:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/input_Password_Submit' is clicked on
+
+2018-11-30 16:25:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/img' is clicked on
+
+2018-11-30 16:25:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/img' is clicked on
+
+2018-11-30 16:25:13 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_Recruitment' is clicked on
+
+2018-11-30 16:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_Recruitment' is clicked on
+
+2018-11-30 16:25:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_Dashboard' is clicked on
+
+2018-11-30 16:25:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_Dashboard' is clicked on
+
+2018-11-30 16:25:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_Directory' is clicked on
+
+2018-11-30 16:25:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_Directory' is clicked on
+
+2018-11-30 16:25:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_Admin' is clicked on
+
+2018-11-30 16:25:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_Admin' is clicked on
+
+2018-11-30 16:25:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-11-30 16:25:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_PIM' is clicked on
+
+2018-11-30 16:25:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_Leave' is clicked on
+
+2018-11-30 16:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_Leave' is clicked on
+
+2018-11-30 16:25:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Page_OrangeHRM/b_Performance' is clicked on
+
+2018-11-30 16:25:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_OrangeHRM/b_Performance' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-30 16:24:52 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/Test Case 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
