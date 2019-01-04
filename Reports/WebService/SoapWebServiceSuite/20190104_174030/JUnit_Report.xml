@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SoapWebServiceSuite" time="4" tests="1" failures="0" errors="0">
+   <testsuite name="SoapWebServiceSuite" tests="1" failures="0" errors="0" time="4" timestamp="2019-01-04 17:40:32" hostname="homea - DESKTOP-M7FJHIG" id="Test Suites/WebService/SoapWebServiceSuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\homea\\Katalon Studio\\API_Project1\\Reports\\WebService\\SoapWebServiceSuite\\20190104_174030"/>
+         <property name="logFiles" value="C:\\Users\\homea\\Katalon Studio\\API_Project1\\Reports\\WebService\\SoapWebServiceSuite\\20190104_174030\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="homea - DESKTOP-M7FJHIG"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.9.1.2"/>
+      </properties>
+      <testcase name="Test Cases/SoapWebServiceTests/Test Case For Addition" classname="Test Cases/SoapWebServiceTests/Test Case For Addition" status="PASSED">
+         <system-out><![CDATA[2019-01-04 17:40:32 - [TEST_CASE][PASSED] - Test Cases/SoapWebServiceTests/Test Case For Addition: Test Cases/SoapWebServiceTests/Test Case For Addition
+
+2019-01-04 17:40:32 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("SoapWebService/AddRequest1")): Send request and verify the response successfully
+
+2019-01-04 17:40:35 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2019-01-04 17:40:36 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2019-01-04 17:40:36 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2019-01-04 17:40:36 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-01-04 17:40:36 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-01-04 17:40:36 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2019-01-04 17:40:36 - [TEST_STEP][PASSED] - getResponseText()).contains("AddResult"): null
+
+2019-01-04 17:40:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", "6"): Verify element property value successfully
+
+2019-01-04 17:40:36 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-01-04 17:40:36 - [MESSAGE][PASSED] - Verify response successfully
+
+2019-01-04 17:40:36 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2019-01-04 17:40:36 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "AddResponse.AddResult", "6"): Verify element property value successfully
+
+2019-01-04 17:40:36 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-04 17:40:32 - [TEST_SUITE][PASSED] - SoapWebServiceSuite: Test Cases/SoapWebServiceTests/Test Case For Addition]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

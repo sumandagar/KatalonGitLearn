@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SoapWebServiceSuite,,,2019-01-04 17:48:23,2019-01-04 17:48:28,5.129s,PASSED
+,,,,,,
+Test Cases/SoapWebServiceTests/Test Case For Addition,,,2019-01-04 17:48:23,2019-01-04 17:48:28,4.689s,PASSED
+"response = sendRequestAndVerify(findTestObject(""SoapWebService/AddRequest1""))",,,2019-01-04 17:48:23,2019-01-04 17:48:28,4.122s,PASSED
+"verifyElementPropertyValue(response, ""AddResponse.AddResult"", ""6"")",,,2019-01-04 17:48:28,2019-01-04 17:48:28,0.023s,PASSED

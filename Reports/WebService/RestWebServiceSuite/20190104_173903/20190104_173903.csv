@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+RestWebServiceSuite,,,2019-01-04 17:39:04,2019-01-04 17:39:16,11.737s,PASSED
+,,,,,,
+Test Cases/RestWebServiceTests/GetBankDetail,,,2019-01-04 17:39:05,2019-01-04 17:39:09,4.707s,PASSED
+"sendRequest(findTestObject(""SoapWebService/getBank""))",,,2019-01-04 17:39:05,2019-01-04 17:39:09,4.231s,PASSED
+,,,,,,
+Test Cases/RestWebServiceTests/ListUsersTest1,,,2019-01-04 17:39:09,2019-01-04 17:39:12,2.782s,PASSED
+"sendRequest(findTestObject(""RestWebService/ListUsers""))",,,2019-01-04 17:39:10,2019-01-04 17:39:11,1.529s,PASSED
+"response = sendRequestAndVerify(findTestObject(""RestWebService/ListUsers""), STOP_ON_FAILURE)",,,2019-01-04 17:39:11,2019-01-04 17:39:12,1.046s,PASSED
+"verifyElementPropertyValue(response, ""data[1].first_name	"", ""Charles"")",,,2019-01-04 17:39:12,2019-01-04 17:39:12,0.015s,PASSED
+"verifyElementPropertyValue(response, ""data[2].id	"", ""6"")",,,2019-01-04 17:39:12,2019-01-04 17:39:12,0.013s,PASSED
+"verifyElementsCount(response, ""data"", 3)",,,2019-01-04 17:39:12,2019-01-04 17:39:12,0.023s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-01-04 17:39:12,2019-01-04 17:39:12,0.001s,PASSED
+,,,,,,
+Test Cases/RestWebServiceTests/TestHTTPMethods,,,2019-01-04 17:39:12,2019-01-04 17:39:16,3.937s,PASSED
+"sendRequestAndVerify(findTestObject(""RestWebService/ListUsers""))",,,2019-01-04 17:39:12,2019-01-04 17:39:14,1.318s,PASSED
+"sendRequestAndVerify(findTestObject(""RestWebService/CreateUser""))",,,2019-01-04 17:39:14,2019-01-04 17:39:15,0.883s,PASSED
+"sendRequestAndVerify(findTestObject(""RestWebService/UpdateUser""))",,,2019-01-04 17:39:15,2019-01-04 17:39:15,0.718s,PASSED
+"sendRequestAndVerify(findTestObject(""RestWebService/DeleteUser""))",,,2019-01-04 17:39:15,2019-01-04 17:39:16,0.877s,PASSED
