@@ -1,22 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>ListUsers</name>
+   <name>countryinfo</name>
    <tag></tag>
-   <elementGuidId>03af8ef9-220f-4f4d-9408-22ad3cc98873</elementGuidId>
+   <elementGuidId>a0dbd198-22a0-4862-afc0-5950d6a6995b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
    <httpBodyType></httpBodyType>
-   <migratedVersion>5.4.1</migratedVersion>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://reqres.in/api/users?page=2</restUrl>
-   <serviceType>RESTful</serviceType>
-   <soapBody></soapBody>
+   <restRequestMethod></restRequestMethod>
+   <restUrl></restUrl>
+   <serviceType>SOAP</serviceType>
+   <soapBody>&lt;Envelope xmlns=&quot;http://schemas.xmlsoap.org/soap/envelope/&quot;>
+    &lt;Body>
+        &lt;ListOfCountryNamesByName xmlns=&quot;http://www.oorsprong.org/websamples.countryinfo&quot;/>
+    &lt;/Body>
+&lt;/Envelope></soapBody>
    <soapHeader></soapHeader>
-   <soapRequestMethod></soapRequestMethod>
-   <soapServiceFunction></soapServiceFunction>
+   <soapRequestMethod>SOAP</soapRequestMethod>
+   <soapServiceFunction>ListOfCountryNamesByName</soapServiceFunction>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -31,15 +34,6 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-
-
-WS.verifyResponseStatusCode(response, 200)
-
-assertThat(response.getStatusCode()).isEqualTo(200)
-
-
-WS.verifyElementPropertyValue(response, 'data[1].first_name', 'Charles')
-
-</verificationScript>
-   <wsdlAddress></wsdlAddress>
+WS.verifyElementText(response, 'ListOfCountryNamesByNameResponse.ListOfCountryNamesByNameResult.tCountryCodeAndName[0].sISOCode', 'AX')</verificationScript>
+   <wsdlAddress>http://webservices.oorsprong.org/websamples.countryinfo/CountryInfoService.wso?WSDL</wsdlAddress>
 </WebServiceRequestEntity>

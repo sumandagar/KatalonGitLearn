@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
 	<name>C%%Users%homea%Katalon Studio%API_Project1%API_Project1.prj</name>
 	<comment></comment>
 	<projects>
@@ -18,6 +17,16 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>kat-4603480037564770293.groovy</name>
+			<type>1</type>
+			<location>C:/Users/homea/AppData/Local/Temp/Katalon/Web Services/kat-4603480037564770293.groovy</location>
+		</link>
+		<link>
+			<name>kat-4690054322680449894.groovy</name>
+			<type>1</type>
+			<location>C:/Users/homea/AppData/Local/Temp/Katalon/Web Services/kat-4690054322680449894.groovy</location>
+		</link>
+		<link>
 			<name>kat-6727302143585028430.groovy</name>
 			<type>1</type>
 			<location>C:/Users/homea/AppData/Local/Temp/Katalon/Web Services/kat-6727302143585028430.groovy</location>
@@ -26,6 +35,11 @@
 			<name>kat-7003066896941170283.groovy</name>
 			<type>1</type>
 			<location>C:/Users/homea/AppData/Local/Temp/Katalon/Web Services/kat-7003066896941170283.groovy</location>
+		</link>
+		<link>
+			<name>kat-8179359023010428937.groovy</name>
+			<type>1</type>
+			<location>C:/Users/homea/AppData/Local/Temp/Katalon/Web Services/kat-8179359023010428937.groovy</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -40,71 +54,6 @@
 		</filter>
 		<filter>
 			<id>1546436143110</id>
-=======
-	<name>C%%Users%homea%git%KatalonGitLearn%KatalonGitLearn.prj</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
-		<nature>org.eclipse.jdt.core.javanature</nature>
-	</natures>
-	<filteredResources>
-		<filter>
-			<id>1543554179924</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1543554179924</id>
-			<name></name>
-			<type>6</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1543570801480</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1543570801496</id>
-			<name></name>
-			<type>6</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1543575287930</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1543575287946</id>
->>>>>>> branch 'master' of https://github.com/sumandagar/KatalonGitLearn
 			<name></name>
 			<type>6</type>
 			<matcher>
